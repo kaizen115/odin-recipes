@@ -5,27 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Pizza</h1>
-    <img src="/images/pizza.jpg" alt="whole-pizza">
-    <h2>Description</h2>
-    <p>Pizza is a classic and diverse meal that's perfect for any occasion. </p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Dough</li>
-        <li>Sauce of your choosing</li>
-        <li>Mozzarella Cheese</li>
-        <li>*Optional* Pepperoni's</li>
-        <li>*Optional* Vegetables</li>
-    </ul>
-    <h2>Steps:</h2>
-    <ol>
-        <li>Roll out the dough into a circle</li>
-        <li>Add the sauce</li>
-        <li>Add the cheese</li>
-        <li>Add your choice of toppings</li>
-        <li>Cook in oven for 12-18 minutes at 375 degrees</li>
-    </ol>
+    <header class="header">
+        <ul class="nav-bar">
+            <h1 class="home-header">Odin Recipes</h1>
+                <p class="barrier"> | </p>
+                <li class="nav"><a href="/index.html">Home</a></li>
+                <li class="nav"><a href="/recipes/Chili.html">Chili</a></li>
+                <li class="nav"><a href="/recipes/pizza.html">Pizza</a></li>
+                <li class="nav"><a href="/recipes/Steak.html">Steak</a></li>
+        </ul>
+    </header>
+    <main class="main-container">
+        <div class="box-1">
+            <img src="/images/pizza.jpg" class="images" alt="whole-pizza">
+            <div class="meal-container">
+            <h1 class="body-header">Pizza</h1>
+            <p class="meal-desc">Pizza is a classic and diverse meal that's perfect for any occasion. </p>
+        </div>
+        </div>
+
+    <div class="box-2">
+        <div class="ingredients">
+        <h2 class="list-title">Ingredients</h2>
+        <ul>
+            <li class="list-text">Dough</li>
+            <li class="list-text">Sauce of your choosing</li>
+            <li class="list-text">Mozzarella Cheese</li>
+            <li class="list-text">*Optional* Pepperoni's</li>
+            <li class="list-text">*Optional* Vegetables</li>
+            </ul>
+        </div>
+        <div class="steps">
+        <h2 class="list-title">Steps:</h2>
+        <ol>
+            <li class="list-text">Roll out the dough into a circle</li>
+            <li class="list-text">Add the sauce</li>
+            <li class="list-text">Add the cheese</li>
+            <li class="list-text">Add your choice of toppings</li>
+            <li class="list-text">Bake in oven for 12-18 minutes at 375 degrees</li>
+        </ol>
+        </div>
+    </div>    
+</main>
 </body>
 </html>

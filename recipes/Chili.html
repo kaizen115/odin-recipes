@@ -4,29 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Chili</h1>
-    <img src="/images/chili.jpg" alt="bowl-of-chili">
-    <h2>Description</h2>
-    <p>Chili is a hearty soup-like dish typically consisting of beans, vegetables, meat and seasoning. </p>
-    <p>It is great during winter months to stay warm, indoors or outdoors.</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>Beans</li>
-        <li>Ground Beef</li>
-        <li>Celery</li>
-        <li>Seasoning</li>
-        <li>*Optional* Cheese</li>
-    </ul>
-    <h2>Steps:</h2>
-    <ol>
-        <li>Cook the ground beef in a pan</li>
-        <li>Dump chili beans and celery into a seperate pot</li>
-        <li>Simmer on medium heat and add the ground beef</li>
-        <li>Add seasoning and stir while it slowcooks</li>
-        <li>Enjoy.</li>
-    </ol>
+    <header class="header">
+        <ul class="nav-bar">
+            <h1 class="home-header">Odin Recipes</h1>
+                <p class="barrier"> | </p>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/recipes/Chili.html">Chili</a></li>
+                <li><a href="/recipes/pizza.html">Pizza</a></li>
+                <li><a href="/recipes/Steak.html">Steak</a></li>
+        </ul>
+    </header>
+    <main class="main-container">
+        <div class="box-1">
+            <img src="/images/chili.jpg" class="images" alt="bowl-of-chili">
+            <div class="meal-container">
+            <h1 class="body-header">Chili</h1>
+            <p class="meal-desc">Chili is a hearty, soup-like dish typically consisting of beans, vegetables, meat and seasoning. </p>
+            <p class="meal-desc">It is great during winter months to stay warm, indoors or outdoors.</p>
+        </div>
+        </div>
+
+    <div class="box-2">
+        <div class="ingredients">
+        <h2 class="list-title">Ingredients</h2>
+        <ul>
+            <li class="list-text">Beans</li>
+            <li class="list-text">Ground Beef</li>
+            <li class="list-text">Celery</li>
+            <li class="list-text">Seasoning</li>
+        </ul>
+        </div>
+        <div class="steps">
+        <h2 class="list-title">Steps:</h2>
+        <ol>
+            <li class="list-text">Cook the ground beef in a pan</li>
+            <li class="list-text">Dump chili beans and celery into a seperate pot</li>
+            <li class="list-text">Simmer on medium heat and add the ground beef</li>
+            <li class="list-text">Add seasoning and stir while it slowcooks</li>
+        </ol>
+        </div>
+    </div>
+</main>
 </body>
 </html>
